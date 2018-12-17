@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/draft-07/schema#",
-  "$id": "https://github.com/wryan/Tasker/blob/master/Tasker/json/taskSchemas/standardTaskSchema.json",
+  "$id": "https://raw.githubusercontent.com/wryan/FiddlerSchemas/master/src/schemas/json/standardTaskSchema.json",
   "title": "Task",
   "description": "Basic task",
   "type": "object",
