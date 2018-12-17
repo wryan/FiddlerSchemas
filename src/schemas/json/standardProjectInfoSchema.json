@@ -1,0 +1,18 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://github.com/wryan/Tasker/blob/master/Tasker/json/caseSchemas/standardCaseSchema.json",
+  "title": "Case",
+  "description": "Basic case payload",
+  "type": "object",
+  "properties": {
+    "caseId": {
+      "description": "The unique identifier for a case",
+      "type": "string"
+    },
+    "caseName": {
+      "description": "Name of the case",
+      "type": "string"
+    }
+  },
+  "required": [ "productId", "productName" ]
+}

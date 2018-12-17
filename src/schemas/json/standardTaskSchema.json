@@ -1,0 +1,22 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://github.com/wryan/Tasker/blob/master/Tasker/json/taskSchemas/standardTaskSchema.json",
+  "title": "Task",
+  "description": "Basic task",
+  "type": "object",
+  "properties": {
+    "taskId": {
+      "description": "The unique identifier for a task",
+      "type": "string"
+    },
+    "taskTitle": {
+      "description": "Title of the task",
+      "type": "string"
+    },
+    "taskDescription": {
+      "description": "Description of the task",
+      "type": "string"
+    }
+  },
+  "required": [ "taskId", "taskTitle" ]
+}
