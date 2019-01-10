@@ -17,6 +17,11 @@
       "description": "Description of the task",
       "type": "string"
     }
+    ,
+    "taskStatus": {
+      "description": "Status of the task",
+      "type": "string"
+    }
   },
   "required": [ "taskId", "taskTitle" ]
 }

@@ -9,8 +9,16 @@
       "description": "The unique identifier for a project",
       "type": "string"
     },
+    "projectType": {
+      "description": "Type of project",
+      "type": "string"
+    },
     "projectName": {
       "description": "Name of the project",
+      "type": "string"
+    },
+    "projectStatus": {
+      "description": "Status of the project",
       "type": "string"
     }
   },
