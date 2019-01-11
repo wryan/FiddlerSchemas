@@ -2,7 +2,7 @@
   "$schema": "http://json-schema.org/draft-07/schema#",
   "$id": "https://raw.githubusercontent.com/wryan/FiddlerSchemas/master/src/schemas/json/standardProjectInfoSchema.json",
   "title": "Project Information",
-  "description": "Basic project information",
+  "description": "Basic project with metadata, processes, and tasks",
   "type": "object",
   "properties": {
     "projectId": {
@@ -20,7 +20,26 @@
     "projectStatus": {
       "description": "Status of the project",
       "type": "string"
+    },
+    "processesArray": {
+      "description": "Set of categorized subprocesses",
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "subProcessCategory": {
+            "description": "Category for associated tasks that define a subprocess",
+            "type": "string"
+          },
+          "subProcessTasks": {
+            "description": "Associated tasks that define a subprocess",
+            "type": "array",
+            "items": {
+              "$ref": "https://raw.githubusercontent.com/wryan/FiddlerSchemas/master/src/schemas/json/standardTaskSchema.json"
+            }
+          }
+        }
+      }
     }
-  },
-  "required": [ "projectId", "projectName" ]
+  }
 }

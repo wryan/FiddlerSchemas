@@ -16,10 +16,13 @@
     "taskDescription": {
       "description": "Description of the task",
       "type": "string"
-    }
-    ,
+    },
     "taskStatus": {
       "description": "Status of the task",
+      "type": "string"
+    },
+    "applicationURI": {
+      "description": "URI for supporting applications to help complete task",
       "type": "string"
     }
   },
