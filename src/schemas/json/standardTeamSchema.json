@@ -68,12 +68,12 @@
                "$comment":"Value is set when person is added to team"
             },
             "teamMemberStartDate":{
-               "description":"Date person is joins team",
+               "description":"Date person joins team",
                "type":"date",
                "$comment":"Value is set when person is added to team"
             },
             "teamMemberEndDate":{
-               "description":"Date person is leaves team",
+               "description":"Date person leaves team",
                "type":"date",
                "$comment":"Value is set when person leaves team"
             }
