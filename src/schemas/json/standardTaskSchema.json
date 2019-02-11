@@ -84,7 +84,7 @@
             }
          }
       },
-      "taskReference":{
+      "taskReferenceObject":{
          "description":"Reference objects provide the name, description, type, and URI for materials that can help a user complete a task",
          "type":"object",
          "properties":{

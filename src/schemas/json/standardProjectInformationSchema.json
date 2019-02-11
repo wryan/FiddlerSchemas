@@ -50,7 +50,7 @@
                   "description":"Associated tasks that define a subprocess",
                   "type":"array",
                   "items":{
-                     "$ref":"https://raw.githubusercontent.com/wryan/FiddlerSchemas/master/src/schemas/json/standardTaskSchema.json"
+                     "$ref":"standardTaskSchema.json"
                   }
                }
             }
